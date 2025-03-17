@@ -1,0 +1,6 @@
+Tanzania Tourism Challenge
+Celem zadania jest stworzenie modelu predykcyjnego, który będzie oszacowywał całkowitą cenę wycieczki turystów odwiedzających Tanzanię na podstawie danych o ich wizycie. Dokładne prognozowanie tego wydatku przyczyni się do rozwoju sektora turystycznego w tym kraju.
+
+Zbiór danych pochodzi z Narodowego Biura Statystycznego Tanzanii i zawiera informacje o 6476 wycieczkach turystycznych. Dane składają się z 23 kolumn zawierających dane o turystach takie jak grupa wiekowa, ilość mężczyzn oraz kobiet na wycieczce czy kraj pochodzenia, jak i dane o szczegółach pobytu takie jak cel podróży, główna atrakcja czy ilość spędzonych nocy. Docelową zmienną do predykcji jest całkowity wydatek wycieczki w Tanzanii. Dane składają się z 5 kolumn liczbowych z czego jedną z nich jest kolumna total_cost oraz 18 kolumn kategorycznych z czego jedna to ID wycieczki.
+
+Proces analizy danych obejmie wstępną eksplorację danych (EDA), wraz z wykrywaniem brakujących i odstających wartości. Następnie przeprowadzona zostanie inżynieria cech i kodowanie zmiennych kategorycznych. W kolejnych etapach testowane będą różne modele regresyjne. Model zostanie oceniony na podstawie średniego błędu bezwzględnego (MAE) oraz innych.
